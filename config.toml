@@ -3,11 +3,12 @@ languageCode = "en-us"
 title = "Blog of waningflow"
 theme = "hello-friend"
 paginate = 5
+googleAnalytics = "UA-136598251-10"
 
 [params]
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "articles"
 
   # "light" or "dark"
   defaultTheme = "dark"
@@ -31,7 +32,7 @@ paginate = 5
     title = "Blog of waningflow"
     subtitle = ""
     keywords = ""
-    copyright = ""
+    copyright = "Copyright © 2020 waningflow.com"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -57,7 +58,3 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"

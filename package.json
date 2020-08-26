@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "upload": "hugo -D && node scripts/publish.js"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.4",

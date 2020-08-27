@@ -22,7 +22,7 @@ async function putStream(filepath, filename) {
 }
 
 async function upload() {
-  const files = glob.sync('public/**/!(precache)*.{js,html,css,png,json,ico,txt,svg,xml,woff,woff2}');
+  const files = glob.sync('public/**/!(precache)*.{js,html,css,png,jpg,json,ico,txt,svg,xml,woff,woff2}');
   for (let i = 0; i < files.length; i++) {
     const filename = files[i].replace('public/', '');
     const filepath = path.resolve(__dirname, `../public/${filename}`);

@@ -4,7 +4,7 @@ date: 2020-05-09T22:15:44+08:00
 draft: false
 keywords: 'electron,history stack'
 slug: 'detect-cango-using-history-stack'
-tags: ['web', 'electron', 'history', 'js']
+tags: ['web', 'electron', 'history']
 ---
 
 最近写的一个应用涉及到路由的跳转，需要加一个像浏览器地址栏一样的“后退”和“前进”的按钮。单纯的控制“后退”和“前进”很简单，[history](https://link.zhihu.com/?target=https%3A//github.com/ReactTraining/history) 库提供了三个接口：

@@ -1,10 +1,13 @@
 ---
 title: 'Webpack4中的Tree Shaking'
 date: 2020-08-23T07:31:00+08:00
-draft: true
+author: 'waningflow'
+draft: false
 keywords: 'webpack,tree shaking'
 slug: 'tree-shaking-in-webpack4'
 tags: ['web', 'webpack']
+cover: 'img/tree-shaking-in-webpack4-cover.jpg'
+# description: '讨论Webpack4中的Tree Shaking的原理和实践'
 ---
 
 # 名词解释

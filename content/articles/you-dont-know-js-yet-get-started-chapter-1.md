@@ -6,7 +6,7 @@ draft: false
 keywords: 'js,ECMAScript'
 slug: 'you-dont-know-js-yet-get-started-chapter-1'
 tags: ['js', '翻译']
-# cover: 'img/tree-shaking-in-webpack4-cover.jpg'
+cover: 'img/you-dont-know-js-yet-get-started-chapter-1-cover.jpg'
 # description: '讨论Webpack4中的Tree Shaking的原理和实践'
 ---
 

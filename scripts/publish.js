@@ -3,11 +3,7 @@ const glob = require('glob');
 const path = require('path');
 
 const OSS = require('ali-oss');
-
-const REGION = 'oss-cn-hangzhou';
-const BUCKET = 'blog-waningflow-com';
-const ACCESS_ID = 'LTAI4GJhXAUTd7EKDprYq9Hj';
-const ACCESS_SECRET = 'cSnLEoxQ07FqMiFCK9Yz44cp2ddvJC';
+const { REGION, BUCKET, ACCESS_ID, ACCESS_SECRET } = require('./secret');
 
 const client = new OSS({
   region: REGION,
